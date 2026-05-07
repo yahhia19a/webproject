@@ -1,0 +1,245 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+.contact-section {
+  padding: 90px 0;
+}
+.contact-section h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.address {
+  color: #777;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.icon {
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+
+.contact-section h6 {
+  font-weight: 600;
+}
+
+.contact-section small {
+  color: #888;
+  display: block;
+}
+
+.contact {
+  color: black;
+  display: block;
+}
+
+.contact:hover {
+  color: red;
+}
+
+.live {
+  color: black;
+  font-weight: 500;
+}
+
+.social i {
+  margin: 5px;
+  cursor: pointer;
+}
+.social i:hover{
+    color:rgb(238, 10, 10);
+    background-color:rgb(255, 0, 0);
+
+}
+.form-section {
+  background: white;
+  padding: 40px 0;
+}
+
+.form-section h4 {
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.form-wrapper {
+  width: 70%;
+  margin: auto;
+}
+form input,
+form textarea,
+form button {
+  width: 100%;
+  margin: 10px 0;
+  padding: 14px;
+  border: none;
+  background: rgba(235, 238, 240, 1);
+  border-radius: 8px;
+}
+
+form textarea {
+  height: 150px;
+}
+
+form button {
+  background: black;
+  color: white;
+  font-weight: 600;
+}
+
+.map-section {
+  width: 100%;
+  margin-top: 50px;
+}
+
+.map-container {
+  margin: 0;
+  width: 100%;
+height: 500px;
+  
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+.footer {
+  background-color: #1b1f22;
+  color: #ccc;
+  padding: 60px 0;
+}
+.footer h6 {
+  color: #fff;
+  font-weight: 600;
+}
+.footer .logo {
+  color: #fff;
+  font-weight: bold;
+}
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.footer ul li:hover {
+  color: rgb(230, 2, 2);
+}
+
+.input-group input {
+  background-color: #1b1f22;
+  border: 1px solid #444;
+}
+.input-group button:hover{
+  background-color: #1b1f22;
+  color: red;
+  border: 1px solid #444;
+  border-left: none;
+}
+
+.input-group button{
+  background-color: #1b1f22;
+  color: white;
+  border-color:#444;
+  border-left: none ;
+  
+}
+.social i:hover {
+  color: #fff;
+}
+.bottom {
+    font-size: 13px;
+  color: #888;
+  margin-top: 40px;
+  padding: 5px 20px;
+  margin-bottom: 5px;
+}
+.pay-icons {
+  gap: 8px;
+}
+
+.pay-icons i {
+  font-size: 18px;
+  padding: 8px 10px;
+  color: black;
+  background-color: whitesmoke;
+  border-radius: 4px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.support-box {
+  width: 97%;
+  border: 1px solid #515050;
+  border-radius: 5px;
+  padding: 25px;
+  padding-bottom: 40px;
+  margin-bottom: 20px;
+}
+
+.support-item i {
+  font-size: 24px;
+  padding-left: 20%;
+  color: white;
+}
+
+.support-item a {
+  text-decoration: none;
+  color: white;
+border-bottom: 1px solid;
+  font-size: 14px;
+}
+
+.support-item p {
+  font-size: 14px;
+}
+.footer-head h5{
+  font-weight: 400;
+  color: white;
+}
+
+.form-c{
+  padding-left: 5%;
+
+}
+
+.container h3{
+  font-weight: bold;
+}
+.stores {
+  margin-top: 50px;
+  margin-bottom: 70px;
+}
+.scard {
+  margin-bottom: 20px;
+}
+.scard img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.scard img:hover{
+  opacity: 0.8;
+}
+
+.scard h5 {
+  font-weight: bold;
+}
+.scard p {
+  color: #777;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.scard span {
+  font-size: 14px;
+}
