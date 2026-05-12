@@ -3,6 +3,16 @@ body{
     font-family: Arial, sans-serif;
 }
 
+
+#owl-demo .item{
+  margin: 3px;
+}
+#owl-demo .item img{
+  display: block;
+  width: 50%;
+  height: auto;
+}
+
 .blog-section{
     padding: 50px 0;
 }
@@ -25,8 +35,6 @@ body{
     transition: 0.4s;
 }
 
-/* image hover */
-
 .img-box:hover img{
     transform: scale(1.08) rotate(-2deg);
 }
@@ -47,8 +55,6 @@ body{
     transition: 0.3s;
 }
 
-/* autoparts + myoui mina hover */
-
 .small-text a:hover{
     color: red;
 }
@@ -63,8 +69,6 @@ body{
     margin: 15px 0;
     transition: 0.3s;
 }
-
-/* title hover */
 
 .post-title:hover{
     color: red;
@@ -85,9 +89,6 @@ body{
     font-weight: bold;
     transition: 0.3s;
 }
-
-/* button hover */
-
 .read-btn:hover{
     background-color: black;
     color: white;
@@ -159,4 +160,88 @@ body{
 }
 .categories span{
     color: #c7c7c7;
+}
+.category-link {
+  display: block;
+  text-align: center;
+  color: #000;
+}
+
+.category-circle {
+  width: 170px;
+  height: 170px;
+  background: #e5e5e5;
+  border-radius: 50%;
+
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  overflow: hidden;
+
+  transition: 0.3s;
+}
+
+.category-circle img {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+
+  transition: 0.3s;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+
+  background: rgba(220, 220, 220, 0.65);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  opacity: 0;
+
+  transition: 0.3s;
+}
+
+.overlay i {
+  color: white;
+  font-size: 34px;
+}
+.category-circle:hover .overlay {
+  opacity: 1;
+}
+
+.category-circle:hover img {
+  transform: scale(1.05);
+}
+
+.category-title {
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.discount-banner {
+  border: 1px solid #555;
+  padding: 22px;
+  text-align: center;
+  background: white;
+}
+
+.discount-banner p {
+  margin: 0;
+  font-size: 28px;
+}
+
+.coupon-code {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  margin: 0 10px;
+}
+.discount:hoover{
+    border-color: 1px solid red;
 }

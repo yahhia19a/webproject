@@ -13,13 +13,312 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
     rel="stylesheet">
+<link rel="stylesheet" href="owl-carousel/owl.carousel.css">
 
+<link rel="stylesheet" href="owl-carousel/owl.theme.css">
   <link rel="stylesheet" href="./css/index.css">
   <link rel="stylesheet" href="./css/footer.css">
+  <link rel="stylesheet" href="./css/nav.css">
 
 </head>
 
 <body>
+<nav class="navbar">
+  <div class="container-fluid nav-inner">
+
+    
+    <a href="#" class="nav-logo">
+      <img src="https://demo.theme-sky.com/merto/wp-content/themes/merto/images/logo.png" alt="Merto Logo"/>
+    </a>
+
+    <a href="tel:+923942879" class="nav-phone nav-hover-red">
+      <i class="fa-solid fa-phone"></i>
+      <div class="nav-phone-text">
+        <span class="contact-label">Contact us 24/7</span>
+        <span class="contact-number">(+92) 3942 7879</span>
+      </div>
+    </a>
+
+  
+    <div class="nav-search">
+      <div class="search-wrapper">
+        <select class="form-select category-select">
+          <option>All Categories</option>
+          <option>Electronics</option>
+          <option>Fashion</option>
+          <option>Home</option>
+        </select>
+        <div class="divider"></div>
+        <input type="text" class="form-control search-input" placeholder="Search for products..."/>
+        <button class="search-btn">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+    </div>
+
+   
+    <div class="nav-right">
+
+    
+      <a href="#" class="nav-item nav-hover-red">
+        <img src="https://flagcdn.com/w20/us.png" alt="US Flag" class="flag-icon"/>
+        <span>English</span>
+        <i class="fa-solid fa-chevron-down small-icon"></i>
+      </a>
+
+  
+      <a href="#" class="nav-item nav-hover-red">
+        <span>USD</span>
+        <i class="fa-solid fa-chevron-down small-icon"></i>
+      </a>
+
+    
+      <a href="#" class="nav-item nav-hover-red">
+        <i class="fa-regular fa-user"></i>
+        <span>Account</span>
+      </a>
+
+  
+      <a href="#" class="nav-item nav-hover-red nav-icon-badge">
+        <i class="fa-regular fa-heart"></i>
+        <span class="badge-dot">0</span>
+      </a>
+
+      
+      <a href="#" class="nav-item nav-hover-red nav-icon-badge">
+        <i class="fa-solid fa-cart-shopping"></i>
+        <span class="badge-dot">0</span>
+      </a>
+
+    </div>
+  </div>
+</nav>
+
+
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img class="d-block w-50" src="img/banner1-mobile-demo1.jpg" alt="First slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-50" src="img/banner2-mobile-demo1.jpg" alt="Second slide">
+    </div>
+    <div class="carousel-item">
+      <img class="d-block w-50" src="img/slide1-demo1.jpg" alt="Third slide">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+
+
+<div class="container py-5">
+  <div id="categoryCarousel" class="carousel slide" data-bs-ride="carousel">
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+
+        <div class="row justify-content-center g-4">
+          <div class="col-auto">
+            <a href="#" class="category-link text-decoration-none">
+
+              <div class="category-circle">
+
+                <img
+                  src="img/cat-4.jpg"
+                  alt="Handbags"
+                />
+
+                <div class="overlay">
+                  <i class="bi bi-arrow-right"></i>
+                </div>
+
+              </div>
+
+              <p class="category-title">HandBags</p>
+
+            </a>
+          </div>
+          <div class="col-auto">
+            <a href="#" class="category-link text-decoration-none">
+
+              <div class="category-circle">
+
+                <img
+                  src="img/cat-7.jpg"
+                  alt="Smartphone"
+                />
+
+                <div class="overlay">
+                  <i class="bi bi-arrow-right"></i>
+                </div>
+
+              </div>
+
+              <p class="category-title">Smartphone</p>
+
+            </a>
+          </div>
+          <div class="col-auto">
+            <a href="#" class="category-link text-decoration-none">
+
+              <div class="category-circle">
+
+                <img
+                  src="img/cat-3.jpg"
+                  alt="Home Decor"
+                />
+
+                <div class="overlay">
+                  <i class="bi bi-arrow-right"></i>
+                </div>
+
+              </div>
+
+              <p class="category-title">Home & Decor</p>
+
+            </a>
+          </div>
+          <div class="col-auto">
+            <a href="#" class="category-link text-decoration-none">
+
+              <div class="category-circle">
+
+                <img
+                  src="img/t-shirt.jpg"
+                  alt="Makeup"
+                />
+
+                <div class="overlay">
+                  <i class="bi bi-arrow-right"></i>
+                </div>
+
+              </div>
+
+              <p class="category-title">Makeup</p>
+
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="carousel-item">
+
+        <div class="row justify-content-center g-4">
+
+          <div class="col-auto">
+            <a href="#" class="category-link text-decoration-none">
+
+              <div class="category-circle">
+
+                <img
+                  src="img/cat-6.jpg"
+                  alt="Fashion"/>
+
+                <div class="overlay">
+                  <i class="bi bi-arrow-right"></i>
+                </div>
+
+              </div>
+
+              <p class="category-title">Fashion</p>
+
+            </a>
+          </div>
+
+           <div class="col-auto">
+            <a href="#" class="category-link text-decoration-none">
+
+              <div class="category-circle">
+
+                <img
+                  src="img/cat-7.jpg"
+                  alt="Smartphone"
+                />
+
+                <div class="overlay">
+                  <i class="bi bi-arrow-right"></i>
+                </div>
+
+              </div>
+
+              <p class="category-title">Fashion</p>
+
+            </a>
+          </div>
+           <div class="col-auto">
+            <a href="#" class="category-link text-decoration-none">
+
+              <div class="category-circle">
+
+                <img
+                  src="img/cat-7.jpg"
+                  alt="Fashion"
+                />
+
+                <div class="overlay">
+                  <i class="bi bi-arrow-right"></i>
+                </div>
+
+              </div>
+
+              <p class="category-title">Fashion</p>
+
+            </a>
+          </div>
+
+          <div class="col-auto">
+            <a href="#" class="category-link text-decoration-none">
+
+              <div class="category-circle">
+
+                <img
+                  src="img/tool1.jpg"
+                  alt="Headphones"
+                />
+
+                <div class="overlay">
+                  <i class="bi bi-arrow-right"></i>
+                </div>
+
+              </div>
+
+              <p class="category-title">Headphones</p>
+
+            </a>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="discount-banner mt-5">
+
+    <p>
+      Super discount for your
+      <strong>first purchase</strong>
+
+      <span class="coupon-code">COUPON25</span>
+
+      Use discount code in the checkout!
+    </p>
+
+  </div>
+
+</div>
+
+
+
   <section class="blog-section container">
 
     <h2 class="blog-title">From Our Blog</h2>
@@ -32,7 +331,6 @@
 
           <div class="row g-4">
 
-            <!-- Card 1 -->
             <div class="col-lg-4">
 
               <div class="blog-card">
@@ -68,7 +366,6 @@
 
             </div>
 
-            <!-- Card 2 -->
             <div class="col-lg-4">
 
               <div class="blog-card">
@@ -103,8 +400,6 @@
               </div>
 
             </div>
-
-            <!-- Card 3 -->
             <div class="col-lg-4">
 
               <div class="blog-card">
@@ -133,20 +428,12 @@
                   <a href="#" class="read-btn">
                     READ MORE
                   </a>
-
                 </div>
-
               </div>
-
             </div>
-
           </div>
-
         </div>
-
       </div>
-
-      <!-- arrows -->
 
       <button class="carousel-control-prev"
         type="button"
@@ -171,11 +458,6 @@
   </section>
 
 
-
-
-
-  <!-- SEARCH SECTION -->
-
   <section class="search-section container-fluid">
 
     <div class="container text-center">
@@ -183,8 +465,6 @@
       <h2 class="search-title">
         Looking for something else?
       </h2>
-
-      <!-- Search Box -->
 
       <div class="search-box mx-auto">
 
@@ -196,8 +476,6 @@
         </button>
 
       </div>
-
-      <!-- Categories -->
 
       <div class="categories">
 
@@ -362,11 +640,12 @@
 
 
 
-  <!-- Bootstrap JS -->
   <script
     src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
   </script>
-
+<script src="jquery-1.9.1.min.js"></script>
+<script src="assets/owl-carousel/owl.carousel.js"></script>
+<script src="js/index.js"></script>
 </body>
 
 </html>

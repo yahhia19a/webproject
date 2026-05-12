@@ -13,13 +13,11 @@
   flex-wrap: nowrap;
 }
 
-/* ── Logo ── */
 .nav-logo img {
   height: 36px;
   display: block;
 }
 
-/* ── Phone ── */
 .nav-phone {
   display: flex;
   align-items: center;
@@ -51,7 +49,7 @@
   color: inherit;
 }
 
-/* ── Search Bar ── */
+
 .nav-search {
   flex: 1;
   min-width: 0;
@@ -122,7 +120,6 @@
   background: #e02020;
 }
 
-/* ── Right Side ── */
 .nav-right {
   display: flex;
   align-items: center;
@@ -130,7 +127,6 @@
   white-space: nowrap;
 }
 
-/* ── Nav Items (language, usd, account, icons) ── */
 .nav-item {
   display: flex;
   align-items: center;
@@ -152,14 +148,12 @@
   color: #999;
 }
 
-/* ── Flag ── */
 .flag-icon {
   width: 20px;
   height: auto;
   border-radius: 2px;
 }
 
-/* ── Badge ── */
 .nav-icon-badge {
   position: relative;
 }
@@ -181,7 +175,6 @@
   line-height: 1;
 }
 
-/* ── Hover Red (applies to phone + nav items) ── */
 .nav-hover-red:hover {
   color: #e02020 !important;
 }
