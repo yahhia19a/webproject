@@ -238,10 +238,10 @@ body{
 }
 
 .coupon-code {
-  color: rgb(0, 0, 0);
+  color: rgb(237, 7, 7);
   font-weight: bold;
   margin: 0 10px;
 }
-.discount:hoover{
+.coupon-code:hover{
     border-color: 1px solid red;
 }
