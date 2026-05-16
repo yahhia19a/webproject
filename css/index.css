@@ -25,11 +25,6 @@ ul {
 .bg-lightgray {
     background-color: #ebeef0;
 }
-
-
-/* ============================================
-   HOMEPAGE OVERLAY
-============================================ */
 .hp-overlay {
     height: 100%;
     width: 100%;
@@ -100,8 +95,14 @@ ul {
 .hero-carousel .item {
     height: 480px;
 }
+.hero-shop-btn:hover {
+    background-color:transparent !important;
+    color: #ffffff !important;
+    border: 1px solid #ffffff !important;
+    transform: 0.9s;
+   
+}
 
-/* Side banners */
 .hero-side-banners {
     display: flex;
     flex-direction: column;
@@ -123,22 +124,32 @@ ul {
 }
 
 
-/* ============================================
-   CATEGORIES CAROUSEL
-============================================ */
+.cat-item {
+    display: block;
+}
 .cat-item img {
     width: 100%;
     max-width: 120px;
     aspect-ratio: 1;
     object-fit: cover;
-    display: block;
+    display: flex;
     margin: 0 auto;
 }
 
 
-/* ============================================
-   PRODUCT CARDS  (Flash Deals & Best Selling)
-============================================ */
+.cat-item {
+    display: block;
+}
+
+.cat-item img {
+    transition: background-color 0.9s ease, transform 0.9s ease;
+}
+
+.cat-item:hover img {
+    opacity: 0.7;
+    transform: scale(1.1);
+}
+
 .prod-card {
     border: 1px solid #dee2e6;
     padding: 12px;
@@ -166,7 +177,6 @@ ul {
     margin: 4px 0;
 }
 
-/* Hover action buttons (always present, shown on hover) */
 .prod-actions {
     position: absolute;
     top: 10px;
@@ -207,10 +217,6 @@ ul {
     font-weight: 600;
 }
 
-
-/* ============================================
-   SECTION HEADER
-============================================ */
 .section-header {
     margin-bottom: 8px;
 }
@@ -219,8 +225,6 @@ ul {
     font-weight: 700;
     margin: 0;
 }
-
-
 
 .promo-section .row {
     min-height: 300px;
@@ -282,7 +286,7 @@ ul {
     font-family: initial;
     font-style: italic;
 }
-/* hoodie-section*/
+
 .main-display-section {
   position: relative;
   background-color: #eef1f4;
@@ -492,10 +496,6 @@ ul {
   position: absolute !important;
   right: 10px !important;
 }
-
-/* ============================================
-   NEW ARRIVALS
-============================================ */
 .arrivals-card {
     padding: 12px;
 }
@@ -525,11 +525,27 @@ ul {
 }
 
 
-/* ============================================
-   BLOG CARDS
-============================================ */
+.promo-sale,
+.promo-collection,
+.promo-beauty {
+    overflow: hidden;
+}
+
+.promo-sale img,
+.promo-collection img,
+.promo-beauty img {
+    transition: transform 0.4s ease;
+}
+
+.promo-sale:hover img,
+.promo-collection:hover img,
+.promo-beauty:hover img {
+    transform: scale(1.06);
+}
+
 .blog-card {
     padding-bottom: 8px;
+    size:fit-content;
 }
 
 .blog-meta {
@@ -552,19 +568,26 @@ ul {
     color: white !important;
 }
 
+.blog-card {
+    overflow: hidden;
+}
 
-/* ============================================
-   SEARCH SECTION TAGS
-============================================ */
+.blog-card img {
+    transition: transform 0.4s ease;
+    display: block;
+}
+
+.blog-card:hover img {
+    transform: scale(1.08) rotate(1deg);
+    overflow: hidden;
+}
+
+
 .search-tags span {
     margin-right: 1rem;
     cursor: pointer;
 }
 
-
-/* ============================================
-   DROPDOWN HOVER
-============================================ */
 .dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0;

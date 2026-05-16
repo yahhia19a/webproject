@@ -3,10 +3,6 @@ console.log("JS Working");
 console.log(typeof $.fn.owlCarousel);
 
 $(document).ready(function () {
-
-    // =========================================
-    // HERO CAROUSEL
-    // =========================================
     $(".hero-carousel").owlCarousel({
         items: 1,
         loop: true,
@@ -17,10 +13,6 @@ $(document).ready(function () {
         dots: true
     });
 
-
-    // =========================================
-    // CATEGORIES CAROUSEL
-    // =========================================
     $(".categories-carousel").owlCarousel({
         loop: true,
         margin: 20,
@@ -34,21 +26,17 @@ $(document).ready(function () {
                 items: 2
             },
             576: {
-                items: 3
-            },
-            768: {
                 items: 4
             },
-            992: {
+            768: {
                 items: 6
+            },
+            992: {
+                items: 8
             }
         }
     });
 
-
-    // =========================================
-    // PRODUCTS CAROUSEL
-    // =========================================
     $(".products-carousel").owlCarousel({
         loop: true,
         margin: 20,
@@ -72,7 +60,6 @@ $(document).ready(function () {
             }
         }
     });
-// hoodie section
 $(document).ready(function () {
   var slider = $("#mainCarousel");
 
@@ -95,9 +82,6 @@ function changeSlide(index) {
   $("#mainCarousel").trigger("to.owl.carousel", [index, 500]);
 }
 
-    // =========================================
-    // BLOG CAROUSEL
-    // =========================================
     $(".blog-carousel").owlCarousel({
         loop: true,
         margin: 20,
@@ -120,9 +104,6 @@ function changeSlide(index) {
     });
 
 
-    // =========================================
-    // PRODUCT ACTION BUTTONS
-    // =========================================
     $(".prod-actions span").click(function () {
 
         let icon = $(this).find("i");
@@ -137,11 +118,6 @@ function changeSlide(index) {
         }
 
     });
-
-
-    // =========================================
-    // SEARCH TAGS
-    // =========================================
     $(".search-tags span").click(function () {
 
         let text = $(this).text();
@@ -150,10 +126,6 @@ function changeSlide(index) {
 
     });
 
-
-    // =========================================
-    // ARRIVALS TAB ACTIVE EFFECT
-    // =========================================
     $(".arrivals-tab").click(function () {
 
         $(".arrivals-tab").css({
@@ -168,10 +140,6 @@ function changeSlide(index) {
 
     });
 
-
-    // =========================================
-    // SIMPLE COUNTDOWN TIMER
-    // =========================================
     let hours = 8;
     let minutes = 26;
     let seconds = 30;
